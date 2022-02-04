@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "Multiswitch",
+  "pluginAlias": "Multidummyswitch",
   "pluginType": "accessory",
   "singular": true,
   "schema": {
