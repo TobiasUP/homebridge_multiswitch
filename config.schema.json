@@ -1,6 +1,6 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
-  "pluginType": "platform",
+  "pluginAlias": "Multiswitch",
+  "pluginType": "accessory",
   "singular": true,
   "schema": {
     "type": "object",
@@ -9,8 +9,19 @@
         "title": "Name",
         "type": "string",
         "required": true,
-        "default": "Example Dynamic Platform"
-      }
+        "default": "Switch"
+      },
+      "default_mode": {
+        "title": "Default Mode",
+        "type": "string",
+        "default": "Off",
+        "required": true,
+        "enum": [
+          "Nicht Stören",
+          "Unterwegs",
+          "Zuhause",
+          "Bad"
+        ]
     }
   }
 }
